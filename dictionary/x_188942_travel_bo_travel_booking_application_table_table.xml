@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Travel Booking Application Table Table" max_length="40" name="x_188942_travel_bo_travel_booking_application_table_table" type="collection"/>
+</database>

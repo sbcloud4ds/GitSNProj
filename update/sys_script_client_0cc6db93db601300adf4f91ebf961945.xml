@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>The return date field must not be visible to end-users unless they explicitly select the return checkbox.&#13;
+So we need to ensure that the field is not visible when the form loads.</description>
+        <field>active</field>
+        <global>false</global>
+        <messages/>
+        <name>Hide return field on load</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+   //alert(g_form.getbooleanValue("u_is_return"));	
+if	(! g_form.getBooleanValue("return")) {
+	g_form.setDisplay("return_date",false);
+  }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-05 12:56:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0cc6db93db601300adf4f91ebf961945</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Hide return field on load</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Travel Booking Application Table" source="x_188942_travel_bo">ccf7deb5db201300adf4f91ebf9619eb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Travel Booking Application Table">ccf7deb5db201300adf4f91ebf9619eb</sys_scope>
+        <sys_update_name>sys_script_client_0cc6db93db601300adf4f91ebf961945</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-06 09:57:01</sys_updated_on>
+        <table>x_188942_travel_bo_booking_request</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view>Employee</view>
+    </sys_script_client>
+</record_update>

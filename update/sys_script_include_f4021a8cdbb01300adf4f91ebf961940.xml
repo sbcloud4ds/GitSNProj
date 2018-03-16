@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_188942_travel_bo.CheckWeather</api_name>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>CheckWeather</name>
+        <script><![CDATA[var CheckWeather = Class.create();
+CheckWeather.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+     _privateFunction: function() {
+		 //private function starts with an underscore
+	 },
+	 getWeatherConditionSummary: function() {
+		 return "Weather in "+this.getParameter(sysparm_cityname)+" seems normal!";
+	 },
+    type: 'CheckWeather'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-07 15:57:36</sys_created_on>
+        <sys_id>f4021a8cdbb01300adf4f91ebf961940</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CheckWeather</sys_name>
+        <sys_package display_value="Travel Booking Application Table" source="x_188942_travel_bo">ccf7deb5db201300adf4f91ebf9619eb</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Travel Booking Application Table">ccf7deb5db201300adf4f91ebf9619eb</sys_scope>
+        <sys_update_name>sys_script_include_f4021a8cdbb01300adf4f91ebf961940</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-07 15:57:36</sys_updated_on>
+    </sys_script_include>
+</record_update>

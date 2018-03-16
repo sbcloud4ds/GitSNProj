@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="968f3144dbb01300adf4f91ebf96195e" sys_domain="global" table="x_188942_travel_bo_booking_request" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-03-07 14:29:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5e8f3144dbb01300adf4f91ebf961960</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_188942_travel_bo_booking_request" name="x_188942_travel_bo_booking_request" sys_domain="global" view="a35737a7db201300adf4f91ebf961960">968f3144dbb01300adf4f91ebf96195e</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_188942_travel_bo_booking_request" sys_domain="global" view="a35737a7db201300adf4f91ebf961960">af5737a7db201300adf4f91ebf961963</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-03-07 14:29:18</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-03-07 14:29:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5a8f3144dbb01300adf4f91ebf961961</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_188942_travel_bo_booking_request" name="x_188942_travel_bo_booking_request" sys_domain="global" view="a35737a7db201300adf4f91ebf961960">968f3144dbb01300adf4f91ebf96195e</sys_ui_form>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_188942_travel_bo_booking_request" sys_domain="global" view="a35737a7db201300adf4f91ebf961960">d28f3144dbb01300adf4f91ebf96195d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-03-07 14:29:18</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_188942_travel_bo_booking_request</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-03-07 14:29:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>968f3144dbb01300adf4f91ebf96195e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_188942_travel_bo_booking_request</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Travel Booking Application Table" source="x_188942_travel_bo">ccf7deb5db201300adf4f91ebf9619eb</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Travel Booking Application Table">ccf7deb5db201300adf4f91ebf9619eb</sys_scope>
+            <sys_update_name>sys_ui_form_sections_968f3144dbb01300adf4f91ebf96195e</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-03-07 14:29:18</sys_updated_on>
+            <sys_user/>
+            <view display_value="Employee" name="Employee">a35737a7db201300adf4f91ebf961960</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" extends="task" label="Booking Request" max_length="40" name="x_188942_travel_bo_booking_request" sizeclass="58" text_index="true" type="collection">
+        <element label="Return" max_length="40" name="return" type="boolean"/>
+        <element label="Return Date" max_length="40" name="return_date" type="glide_date"/>
+        <element label="Start Date" max_length="40" name="start_date" type="glide_date"/>
+        <element attributes="no_audit=true" label="Caller" mandatory="true" max_length="32" name="u_caller" reference="sys_user" type="reference"/>
+        <element label="From" max_length="32" name="u_from_location" reference="cmn_location" type="reference"/>
+        <element label="Destination" max_length="32" name="u_to_location" reference="cmn_location" type="reference"/>
+    </element>
+</database>
